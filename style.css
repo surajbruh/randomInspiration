@@ -43,7 +43,6 @@
 }
 
 .overlay {
-    background-color: rgba(0, 0, 255, 0.419);
     width: 90%;
     height: 100%;
     margin: auto;
@@ -54,11 +53,6 @@
     justify-content: end;
 
     overflow: hidden;
-
-    /* background-image: url("https://i.pinimg.com/736x/48/c0/ae/48c0ae022d583d9b4247b21259c78b08.jpg");
-    background-size: cover;
-    background-position: bottom center; */
-
     position: relative;
 }
 
@@ -76,7 +70,7 @@
 
     font-family: "DM Sans", sans-serif;
     font-weight: 900;
-    font-size: 10.5vw;
+    font-size: 10.5vmax;
 
     mix-blend-mode: lighten;
     letter-spacing: 0.5rem;
@@ -85,7 +79,6 @@
 }
 
 .main {
-    /* border: 2px solid yellow; */
     width: 100%;
     height: 50%;
 
@@ -114,11 +107,9 @@
     color: black;
     line-height: 67.5%;
     font-size: 10rem;
-    /* transform: scale(170%); */
 }
 
 .other {
-    /* background-color: antiquewhite; */
     background-color: var(--primaryColor);
     width: 100%;
     height: 100%;
