@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-size: 62.5%;
+}
+
+:root {
+    --primaryColor: #FFF0ED;
+    --primaryColor: #cacacb;
+    --primaryColor: #aeaeae;
+    
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 0,
+        'wght' 200,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.poster {
+    background-color: var(--primaryColor);
+    width: 30%;
+    height: 80%;
+
+    position: relative;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 255, 0.419);
+    width: 90%;
+    height: 100%;
+    margin: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+
+    overflow: hidden;
+
+    /* background-image: url("https://i.pinimg.com/736x/48/c0/ae/48c0ae022d583d9b4247b21259c78b08.jpg");
+    background-size: cover;
+    background-position: bottom center; */
+
+    position: relative;
+}
+
+.overlay>img {
+    width: 100%;
+}
+
+.main>h1 {
+    box-sizing: content-box;
+    border: 1px solid;
+    background-color: var(--primaryColor);
+    width: 100%;
+    height: 13.2rem;
+    line-height: 13.2rem;
+
+    font-family: "DM Sans", sans-serif;
+    font-weight: 900;
+    font-size: 10.5vw;
+
+    mix-blend-mode: lighten;
+    letter-spacing: 0.5rem;
+
+    transform: scale(105%);
+}
+
+.main {
+    /* border: 2px solid yellow; */
+    width: 100%;
+    height: 50%;
+
+    position: absolute;
+    top: 0;
+
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+.symbols {
+    background-color: var(--primaryColor);
+    padding: 1rem 0;
+    height: max-content;
+    width: 100%;
+
+    position: absolute;
+    z-index: 100;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.symbols>span {
+    color: black;
+    line-height: 67.5%;
+    font-size: 10rem;
+    /* transform: scale(170%); */
+}
+
+.other {
+    /* background-color: antiquewhite; */
+    background-color: var(--primaryColor);
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: end;
+    gap: 3rem;
+}
+
+.other>h3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 300;
+
+    height: max-content;
+}
+
+.other>h3:nth-child(3) {
+    margin-right: 2rem;
+}
+
+.other>h3:nth-child(4) {
+    margin-right: 1rem;
+}
+
+h3>b {
+    font-family: "DM Sans", sans-serif;
+    font-size: 1.6rem;
+}
