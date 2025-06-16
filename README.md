@@ -1,1 +1,1 @@
-Creating random inspired by random things on internet
+Creating random websites or projects inspired by random things on the internet
